@@ -3,9 +3,9 @@
     "description": "YamlLinter based on symfony command yaml:lint",
     "keywords": [ "yaml", "linter", "yaml-linter" ],
     "require": {
-        "symfony/console": "2.3.*",
-        "symfony/yaml": "2.3.*",
-        "symfony/finder": "2.3.*"
+        "symfony/console": "~2.3",
+        "symfony/yaml": "~2.3",
+        "symfony/finder": "~2.3"
     },
     "license": "MIT",
     "authors": [
@@ -24,7 +24,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1-dev"
+            "dev-master": "1.0-dev"
         }
     }
 }
