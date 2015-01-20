@@ -1,6 +1,7 @@
 {
     "name": "hexmedia/yaml-linter",
     "description": "YamlLinter based on symfony command yaml:lint",
+    "keywords": [ "yaml", "linter", "yaml-linter" ],
     "require": {
         "symfony/framework-bundle": ">=2.5",
         "symfony/console": ">=2.5",
@@ -16,5 +17,10 @@
     ],
     "bin": [
         "bin/yaml-lint"
-    ]
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
 }
