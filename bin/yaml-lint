@@ -5,7 +5,7 @@
  * (c) Krystian Kuczek <krystian@hexmedia.pl>
  */
 
-use Symfony\Bundle\FrameworkBundle\Command\YamlLintCommand;
+use Hexmedia\YamlLinter\Command\YamlLintCommand;
 use Symfony\Component\Console\Input\ArgvInput;
 use Symfony\Component\Console\Application;
 
